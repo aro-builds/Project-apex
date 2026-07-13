@@ -1,0 +1,85 @@
+/* ============================================================
+   Project APEX Global Styles
+   ============================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* Colors */
+
+  --primary: #2563eb;
+  --secondary: #0f172a;
+  --background: #050816;
+  --surface: #111827;
+
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+
+  --success: #22c55e;
+  --warning: #facc15;
+  --danger: #ef4444;
+
+  /* Radius */
+
+  --radius: 12px;
+
+  /* Shadows */
+
+  --shadow:
+    0 10px 30px rgba(0,0,0,.25);
+
+  /* Animation */
+
+  --transition: 0.25s ease;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family:
+    Inter,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+
+  background: var(--background);
+
+  color: var(--text-primary);
+
+  overflow: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 8px;
+}
